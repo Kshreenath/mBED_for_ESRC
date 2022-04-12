@@ -793,7 +793,3 @@ void app_main(void)
 ```
 
 In this case we directly access the 32-bit registers, by assigning their address to pointers, i.e. 0x3FF4403C for input register. We made it volatile variable as it's value can change anytime due to external factors. Since we want to read the value of gpio 0, which has the boot button connected to it, we won't need to left shift it, as bit 0 represents state of pin 0. We `and` it with `0x1`, such that we extract the value of the 0th bit, and display it.
-
-# Assignment
-
-- [Week 5 Assignment](https://github.com/SRA-VJTI/embedded-systems-study-group/blob/master/assets/week5/week%20_5_assignment.pdf)

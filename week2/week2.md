@@ -617,6 +617,3 @@ For example, if you want to allocate dynamically some space to hold a struct foo
 }
 ```
 
-## Assignment 
-
-* [Assignment 2](../assets/week2/embedded_assignment_2.pdf)
